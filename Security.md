@@ -71,16 +71,3 @@ These libraries offer various features and functionality for adding watermarks t
 
 
 
-Regenerate response
-
-ChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.
-
-New chat
-
-Export business in India
-
-
-Companies's measures for document protection.
-
-
-
