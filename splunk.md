@@ -58,7 +58,7 @@ Overall, Splunk provides a powerful platform for observability by providing real
 
 
 
-mukilan44@gmail.com
+
 what are the steps to install splunk 
 Here are the general steps to install Splunk:
 
@@ -81,7 +81,7 @@ These are the general steps to install Splunk, but the process may vary dependin
 
 
 
-mukilan44@gmail.com
+
 which organizations use splunk
 Splunk is used by a wide range of organizations across different industries. Here are some examples of organizations that use Splunk:
 
@@ -102,7 +102,7 @@ Overall, Splunk is used by a diverse range of organizations to gain real-time vi
 
 
 
-mukilan44@gmail.com
+
 cost of splunk software
 Splunk offers a range of software products and pricing options, so the cost of Splunk software can vary depending on your organization's needs. Here are some of the factors that can affect the cost of Splunk:
 
@@ -119,7 +119,7 @@ Overall, the cost of Splunk can range from free for small teams to thousands or 
 
 
 
-mukilan44@gmail.com
+
 what is the technology used to develop splunk
 Splunk is developed using a variety of technologies, including:
 
@@ -142,7 +142,7 @@ Overall, Splunk is built using a range of technologies, designed to handle large
 
 
 
-mukilan44@gmail.com
+
 how python can be used to customize splunk
 Python can be used to customize Splunk in a variety of ways, including:
 
@@ -159,7 +159,7 @@ Overall, Python provides a powerful and flexible way to customize and extend Spl
 
 
 
-mukilan44@gmail.com
+
 is it possible to develop a PLM system on splunk platform 
 While Splunk is a powerful platform for analyzing and visualizing data, it is not specifically designed as a Product Lifecycle Management (PLM) system. PLM systems typically have specific features and capabilities, such as bill of materials management, change management, product data management, and workflow automation, which may not be available or may require significant customization to implement in Splunk.
 
