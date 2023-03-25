@@ -53,5 +53,30 @@ cc_binary(
 This defines a cc_binary named my_binary that depends on the my_library target defined in the my_library.bzl file in the my_archive_dir directory.
 That's it! When you run bazel build //:my_binary, Bazel will download the zip file, extract its contents, and use the extracted files as the local repository for the my_archive_dir target.
 
+# Define a genrule to download the zip file with curl
+genrule(
+    name = "download_my_zip_file",
+    outs = ["my_zip_file.zip"],
+    cmd = "curl -L -o $@ https://example.com/my_zip_file.zip",
+    toolchains = [ "@bazel_tools//tools/defaults:toolchain_type" ],
+    visibility = ["//visibility:private"],
+)
 
+# Define a genrule to extract the files from the zip file
+genrule(
+    name = "extract_my_files",
+    srcs = [":download_my_zip_file"],
+    outs = ["my_files"],
+    cmd = "mkdir -p my_files && cd my_files && unzip -o ../$<",
+    toolchains = [ "@bazel_tools//tools/defaults:toolchain_type" ],
+    visibility = ["//visibility:private"],
+)
+
+# Define a BUILD file for the extracted files
+filegroup(
+    name = "my_files",
+    srcs = glob(["my_files/**/*"]),
+)
+
+        
 </pre>
