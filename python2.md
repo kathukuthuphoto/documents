@@ -49,7 +49,7 @@ This program assumes that each table in the hierarchy has a parent_id column tha
 
 
 
-mukilan44@gmail.com
+
 please modify this program to use sqlalchemy and pandas
 Here's a modified version of the program that uses SQLAlchemy and Pandas:
 
@@ -87,14 +87,14 @@ This program uses SQLAlchemy to connect to the Oracle database, and Pandas to re
 
 
 
-mukilan44@gmail.com
+
 thanks
 You're welcome! If you have any more questions, feel free to ask.
 
 
 
 
-mukilan44@gmail.com
+
 please update the program to use a csv config file instead of a json file
 Here's an updated version of the program that uses a CSV configuration file instead of a JSON file:
 
@@ -141,7 +141,7 @@ This code assumes that the CSV configuration file has columns named level, table
 
 
 
-mukilan44@gmail.com
+
 provide same data for tables
 Here's sample data for the tables in the hierarchy:
 
@@ -175,7 +175,7 @@ This data is for a hierarchy with five levels, starting from the root node with 
 
 
 
-mukilan44@gmail.com
+
 give the result of the program for the above sample data and hierarchy config file
 Here's the result of the program for the sample data and hierarchy configuration file:
 
@@ -201,7 +201,7 @@ The program first retrieves the data for the root node with id = 1 from table1. 
 
 
 
-mukilan44@gmail.com
+
 please update the program to be generic connect to all data bases that sqlalchemy supports
 Here's a generic version of the program that can connect to any database that SQLAlchemy supports:
 
@@ -246,7 +246,7 @@ Note that this program assumes that the hierarchy configuration file is in the s
 
 
 
-mukilan44@gmail.com
+
 please generate sample tables and configuration csv file
 Here's a sample SQLite database with three tables representing a hierarchical structure:
 
