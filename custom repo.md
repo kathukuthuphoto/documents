@@ -79,4 +79,21 @@ filegroup(
 )
 
         
+        http_archive(
+    name = "my_lib",
+    url = "https://myartifactory.com/artifactory/myrepo/mylib.zip",
+    sha256 = "mysha256",
+    auth_patterns = [
+        "//myartifactory.com/*",
+    ],
+    strip_prefix = "mylib",
+    build_file_content = """
+# Additional build file content
+""",
+    env = {
+        "ARTIFACTORY_USERNAME": "myusername",
+        "ARTIFACTORY_PASSWORD": "mypassword",
+    },
+)
+        
 </pre>
