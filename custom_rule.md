@@ -1,3 +1,4 @@
+```
 load(
     "@bazel_tools//tools/build_defs/repo:utils.bzl",
     "read_netrc",
@@ -42,3 +43,4 @@ artifactory_archive(
     sha256 = "abcdef123456...",
     strip_prefix = "path/to/extracted/files/",
 )
+```
